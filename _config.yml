@@ -10,8 +10,8 @@ permalink:        pretty
 title:            Patrick Holmes
 # tagline:          'A Jekyll theme'
 description:      '<a href="http://roahmlab.com" target="_blank">ROAHM Lab</a> member, Ph.D candidate in Mechanical Engineering at the <a href="https://umich.edu" target="_blank">University of Michigan</a>.'
-url:              http://hyde.getpoole.com
-baseurl:          /hyde/
+url:              http://pdholmes.github.io/pdholmes
+baseurl:          /pdholmes/
 
 author:
   name:           'Mark Otto'
