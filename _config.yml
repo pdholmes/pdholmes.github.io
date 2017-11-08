@@ -11,7 +11,7 @@ title:            Patrick Holmes
 # tagline:          'A Jekyll theme'
 description:      '<a href="http://roahmlab.com" target="_blank">ROAHM Lab</a> member, Ph.D candidate in Mechanical Engineering at the <a href="https://umich.edu" target="_blank">University of Michigan</a>.'
 url:              http://pdholmes.github.io
-baseurl:          /pdholmes/
+baseurl:          /
 
 author:
   name:           'Mark Otto'
