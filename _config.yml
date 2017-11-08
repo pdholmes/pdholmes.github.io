@@ -7,9 +7,9 @@ permalink:        pretty
 # relative_permalinks: true
 
 # Setup
-title:            Hyde
-tagline:          'A Jekyll theme'
-description:      'A brazen two-column <a href="http://jekyllrb.com" target="_blank">Jekyll</a> theme that pairs a prominent sidebar with uncomplicated content. Made by <a href="https://twitter.com/mdo" target="_blank">@mdo</a>.'
+title:            Patrick Holmes
+# tagline:          'A Jekyll theme'
+description:      '<a href="http://roahmlab.com" target="_blank">ROAHM Lab</a> member, Ph.D candidate in Mechanical Engineering at the <a href="https://umich.edu" target="_blank">University of Michigan</a>.'
 url:              http://hyde.getpoole.com
 baseurl:          /
 
