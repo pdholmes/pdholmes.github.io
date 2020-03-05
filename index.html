@@ -26,8 +26,9 @@
 					<ul>
 						<li><a href="#one" class="active">About</a></li>
 						<li><a href="#two">Research</a></li>
-						<li><a href="#three">Publications</a></li>
-						<li><a href="#four">Contact</a></li>
+						<li><a href="#three">Media</a></li>
+						<li><a href="#four">Publications</a></li>
+						<li><a href="#five">Contact</a></li>
 					</ul>
 				</nav>
 				<footer>
@@ -59,8 +60,9 @@
 										<h2>About</h2>
 										<!-- <p>Just an incredibly simple responsive site<br /> -->
 										<!-- template freebie by <a href="http://html5up.net">HTML5 UP</a>.</p> -->
+										<!-- I'm working on using control theoretic techniques to analyze human motion and to generate safe robot twomotion.  -->
 									</header>
-									<p>I am a Ph.D. candidate in Mechanical Engineering at the University of Michigan working in the <a href="https://roahmlab.com">ROAHM Lab</a> under Professor Ram Vasudevan. I'm interested in using control theoretic techniques to analyze human motion, as well as computer vision methods for extracting models of motion. Currently, my research focuses on building models of human motion and using reachability analysis to characterize human stability during walking and sit-to-stand. I also conduct perturbative biomechanical experiments to verify the accuracy of our stability estimates.</p>
+									<p>I am a Ph.D. candidate in Mechanical Engineering at the University of Michigan working in the <a href="https://roahmlab.com">ROAHM Lab</a> under Professor Ram Vasudevan. Currently, my research focuses on using reachability analysis to characterize human stability during walking and sit-to-stand, and to find safe trajectories of autonomous robots. This research is demonstrated through biomechanical experiments and on robot hardware. In the future, I'm interested in extending biomechanical analyses beyond lab environments using markerless pose estimation techniques, and designing robots that safely interact with people.
 									<p>I'm originally from Goleta, California and received a B.S. in Mechanical Engineering from UC Berkeley in May 2015.</p>
 									<p><a href="https://scholar.google.com/citations?user=SiotUq8AAAAJ&hl=en">[Google Scholar]</a></p>
 								</div>
@@ -69,17 +71,17 @@
 						<!-- Two -->
 							<section id="two">
 								<div class="container">
-									<h3>Research</h3>
+									<h3>Research: Human Motion</h3>
 									<div class="features">
-										<article>
+<!-- 										<article>
 											<a href="javascript:;" class="image"><img src="images/models.png" alt="" /></a>
 											<div class="inner">
 												<h4>Modeling human motion</h4>
 												<p>I work on building personalized dynamic models of human motion from kinematic data. Currently, this type of analysis is confined to a laboratory environment with expensive motion capture equipment. I'm interested in developing markerless and inexpensive camera-based methods for modeling human motion.</p>
 											</div>
-										</article>
+										</article> -->
 										<article>
-											<a href="javascript:;" class="image"><img src="images/basin_step.jpg" alt="" /></a>
+											<a href="javascript:;" class="image"><img src="images/STSstability.png" alt="" /></a>
 											<div class="inner">
 												<h4>Sit-to-stand stability</h4>
 												<p>Fall risk can be assessed by examining an individual's stability. However, stability is difficult to objectively quantify. Here, I used reachability analysis to characterize the stable region of the sit-to-stand motion for 11 test subjects. We perturbed subjects with a motor-driven cable pull as they stood up from a chair, and confirmed that our analysis accurately predicted the instances where the subject stepped or sat back down in response to perturbation.</p>
@@ -103,8 +105,59 @@
 								</div>
 							</section>
 
-						<!-- Three -->
+							<section id="two">
+								<div class="container">
+									<h3>Research: Robotics</h3>
+									<div class="features">
+										<article>
+											<a href="javascript:;" class="image"><img src="images/RTD_overview-1.png" alt="" /></a>
+											<div class="inner">
+												<h4>Collision-free Quadrotor Flight</h4>
+												<p>This work won the ASME Best Student Paper Award at DSCC 2019!</p>
+												<p>To ensure autonomous quadrotors fly safely, we must verify that their planned trajectories are collision-free despite uncertainty (such as tracking error). In this work, I extended the Reachability-based Trajectory Design (RTD) framework to 3-D drone flight by utilizing zonotope reachability analysis to identify trajectories that could cause collisions with obstacles. We are demonstrating this method on hardware with a Parrot Mambo drone and PhaseSpace motion capture system.</p>
+											</div>
+										</article>
+										<article>
+											<a href="javascript:;" class="image"><img src="images/fetch_poster_image.png" alt="" /></a>
+											<div class="inner">
+												<h4>Collision-free Manipulator Planning</h4>
+												<p>For mobile manipulators to work near people, they must be safe! I have extended our previous work on quadrotors to the 6-DOF Fetch Mobile Manipulator robot. Here, we compose a full reachable set of the links of the arm in workspace from reachable sets of the angles of each joint. These reachable sets are intersected with obstacles to find unsafe trajectories, enabling us to plan safe motions in real-time.</p>
+											</div>
+										</article>
+									</div>
+								</div>
+							</section>
+
 							<section id="three">
+								<div class="container">
+									<h3>Media</h3>
+									<div class="features">
+										<article>
+											<p>A music video about sit-to-stand stability we made while addicted to the Moana soundtrack. Thanks to my labmate Shannon!</p>
+											<div class="youtube-video-container">
+    										<iframe class="youtube-video" src="https://www.youtube.com/embed/Lep7gITelAM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+											</div>
+											<p> </p>
+											<p>Another music video about walking stability we made before Rocketman came out (thanks again Shannon and Talia!):</p>
+											<div class="youtube-video-container">
+    										<iframe class="youtube-video" src="https://www.youtube.com/embed/CVjuo5c7U88" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+											</div>
+											<p> </p>
+											<p>This video shows our quadrotor RTD algorithm at work (thanks Shreyas!):</p>
+											<div class="youtube-video-container">
+    										<iframe class="youtube-video" src="https://www.youtube.com/embed/1cldHVQK3Yw" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+											</div>
+											<p> </p>
+											<p>And this video shows ARMTD planning on a Fetch robot (thanks again Shreyas):</p>
+											<div class="youtube-video-container">
+    										<iframe class="youtube-video" src="https://www.youtube.com/embed/ySnux2owlAA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+											</div>
+										</article>
+								</div>
+							</section>
+
+						<!-- Four -->
+							<section id="four">
 								<div class="container">
 									<h3>Publications</h3>
 									<div class="features">
@@ -133,8 +186,8 @@
 								</div>
 							</section>
 
-						<!-- Four -->
-							<section id="four">
+						<!-- Five -->
+							<section id="five">
 								<div class="container">
 									<h3>Contact Me</h3>
 									<p> Feel free to contact me at pdholmes@umich.edu </p>
