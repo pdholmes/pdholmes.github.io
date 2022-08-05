@@ -1,0 +1,9 @@
+@inproceedings{holmes2020armtd,
+    AUTHOR    = {Patrick Holmes AND Shreyas Kousik AND Bohao Zhang AND Daphna Raz AND Corina Barbalata AND Matthew Johnson Roberson AND Ram Vasudevan}, 
+    TITLE     = {{ Reachable Sets for Safe, Real-Time Manipulator Trajectory Design}}, 
+    BOOKTITLE = {Proceedings of Robotics: Science and Systems}, 
+    YEAR      = {2020}, 
+    ADDRESS   = {Corvalis, Oregon, USA}, 
+    MONTH     = {July}, 
+    DOI       = {10.15607/RSS.2020.XVI.100} 
+}

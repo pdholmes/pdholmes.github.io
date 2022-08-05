@@ -1,0 +1,167 @@
+{
+  "basics": {
+    "name": "Patrick D. Holmes",
+    "label": "Roboticist",
+    "picture": "",
+    "email": "pdholmes19@gmail.com",
+    "website": "https://patrickdanielholmes.com",
+    "summary": "Seeking a career in building robots that safely help people.",
+    "profiles": [
+      {
+        "network": "Github",
+        "username": "pdholmes",
+        "url": "https://github.com/pdholmes"
+      },
+      {
+        "network": "Google Scholar",
+        "username": "Patrick D. Holmes",
+        "url": "https://scholar.google.com/citations?user=SiotUq8AAAAJ&hl=en"
+      },
+      {
+        "network": "LinkedIn",
+        "username": "Patrick D. Holmes",
+        "url": "https://www.linkedin.com/in/patrick-holmes-umich/"
+      }
+    ]
+  },
+  "work": [
+    {
+      "company": "Ford Center for Autonomous Vehicles at the University of Michigan",
+      "position": "Senior Research Engineer",
+      "website": "https://fcav.engin.umich.edu",
+      "startDate": "October 2021",
+      "endDate": "",
+      "summary": "Safe trajectory planning and control of autonomous robots.",
+      "highlights": [
+        "Developed a robust trajectory-tracking controller for a robotic arm with bounded error despite model uncertainty.",
+        "Augmented the Recursive Newton-Euler Algorithm to operate over sets of desired trajectories plus tracking error.",
+        "Created novel receding-horizon reachability-based trajectory planner that satisfies collision-avoidance and torque limit constraints in the presence of static and dynamic obstacles, model uncertainty and tracking error."
+      ]
+    }
+  ],
+  "education": [
+    {
+      "institution": "University of Michigan",
+      "area": "Mechanical Engineering",
+      "studyType": "MS, PhD",
+      "startDate": "August 2015",
+      "endDate": "August 2021",
+      "gpa": "3.74",
+      "courses": [
+        "BIOMEDE 533 - Neuromechanics",
+        "EECS 442 - Computer Vision",
+        "EECS 545 - Machine Learning",
+        "EECS 563 - Hybrid Control",
+        "MATH 451 - Advanced Calculus",
+        "MATH 602 - Functional Analysis",
+        "MECHENG 540 - Intermediate Dynamics",
+        "MECHENG 543 - Analytical and Computational Dynamics I",
+        "MECHENG 561 - Design of Digital Control Systems",
+        "MECHENG 564 - Linear Systems Theory",
+        "MOVESCI 230 & 231 - Human Musculoskeletal Anatomy (Audit)",
+      ]
+    },
+    {
+      "institution": "University of California Berkeley",
+      "area": "Mechanical Engineering",
+      "studyType": "BS",
+      "startDate": "August 2011",
+      "endDate": "May 2015",
+      "gpa": "High Honors, 3.92",
+      "courses": [
+        "ELENG 40 - Circuits",
+        "MECHENG 40 - Thermodynamics",
+        "MECHENG C85 - Introduction to Solid Mechanics",
+        "MECHENG 102a - Introduction to Measurement Systems",
+        "MECHENG 102b - Mechatronics Design",
+        "MECHENG 104 - Dynamics",
+        "MECHENG 106 - Fluid Mechanics",
+        "MECHENG 107 - Mechanical Engineering Laboratory",
+        "MECHENG 108 - Mechanical Behaviors of Engineering Materials",
+        "MECHENG 109 - Heat Transfer",
+        "MECHENG 110 - Introduction to Product Development",
+        "MECHENG 120 - Computational Biomechanics Across Multiple Scales",
+        "MECHENG 131 - Vehicle Dynamics and Control",
+        "MECHENG 132 - Dynamical Systems and Feedback",
+        "MECHENG 135 - Design of Microprocessor-based Mechanical Systems",
+        "MECHENG 170 - Intermediate Dynamics",
+        "MECHENG C176 - Orthopedic Biomechanics",
+        "MATH 53 - Multivariable Calculus",
+        "MATH 54 - Linear Algebra & Differential Equations",
+      ]
+    }
+  ],
+  "awards": [
+    {
+      "title": "RSS Pioneer",
+      "date": "July 2020",
+      "awarder": "Robotics: Science and Systems 2020 Pioneers Workshop",
+      "summary": "One of 28 senior PhD students selected to present.",
+    },
+    {
+      "title": "Best Student Paper Award",
+      "date": "October 2019",
+      "awarder": "ASME Dynamic Systems and Control Conference (DSCC)",
+      "summary": "For the publication ''Safe, aggressive quadrotor flight via reachability-based trajectory design.''",
+    },
+    {
+      "title": "Drake Scholar",
+      "date": "August 2011 - May 2015",
+      "awarder": "UC Berkeley Dept. of Mechanical Engineering",
+      "summary": "One of six ME students awarded a full academic scholarship to attend UC Berkeley.",
+    },
+  ],
+  "publications": [
+    {
+      "name": "Please see this webpage.",
+      "website": "https://patrickdanielholmes.com/publications/",
+    }
+  ],
+  "skills": [
+    {
+      "name": "Programming",
+      "keywords": [
+        "MATLAB",
+        "C++",
+        "Python",
+        "LaTeX"
+      ]
+    },
+    {
+      "name": "Software",
+      "keywords": [
+        "Git",
+        "SolidWorks",
+        "Simulink",
+        "LabVIEW",
+        "Microsoft Office"
+      ]
+    },
+    {
+      "name": "Systems/Math",
+      "keywords": [
+        "Robot Kinematics and Dynamics",
+        "Linear/Nonlinear Systems and Control",
+        "Hybrid Systems",
+        "Human Biomechanics", 
+        "Real/Functional Analysis"
+      ]
+    },
+    {
+      "name": "Tools",
+      "keywords": [
+        "Motion Planning",
+        "Reachability Analysis",
+        "Optimization",
+        "Machine Learning",
+        "Computer Vision",
+      ]
+    },
+  ],
+  "languages": [
+    {
+      "language": "English",
+      "fluency": "Native"
+    }
+  ],
+}
