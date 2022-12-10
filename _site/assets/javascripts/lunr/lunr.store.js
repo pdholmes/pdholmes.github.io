@@ -4,10 +4,15 @@ var store = [{
         "tags": ["news"],
         "url": "http://localhost:4000/2021/08/03/news-phd-defense.html"
       },{
-        "title": "News: Started job at Ford Center for Autonomous Vehicles",
-        "excerpt":"Excited to work in this beautiful building next to such talented people!As well as my less-human coworkers of course: ","categories": [],
+        "title": "News: Started job as Senior Engineer in Research at the University of Michigan",
+        "excerpt":"I’m excited to continue my research on safe motion planning at ROAHM Lab and the Ford Center for Autonomous Vehicles.Can’t wait to work next to such talented people (as well as my robotic coworkers of course): ","categories": [],
         "tags": ["news"],
         "url": "http://localhost:4000/2021/10/15/fcav-engineer.html"
+      },{
+        "title": "News: Received Best RA-L Paper Award at BioRob 2022 in Seoul",
+        "excerpt":"I had a great time attending BioRob 2022 in Seoul, Korea and presenting our paper “Predicting Sagittal-Plane Swing Hip Kinematics in Response to Trips” for lead author Shannon M. Danforth.I was honored to accept the Best RA-L Paper Award on behalf of our team.Thanks to Hyeju Yoo for the pictures!...","categories": [],
+        "tags": ["news"],
+        "url": "http://localhost:4000/2022/08/30/biorob.html"
       },{
         "title": "Reachable Sets for Safe, Real-Time Manipulator Trajectory Design",
         "excerpt":"Provably-safe motion planning for manipulators. “Reachable Sets for Safe, Real-Time Manipulator Trajectory Design.” (Patrick Holmes, Shreyas Kousik, Bohao Zhang, Daphna Raz, Corina Barbalata, Matthew Johnson-Roberson, Ram Vasudevan), in Robotics: Science and Systems (RSS) 2020. Recording. Video. Bibtex. Abstract For robotic arms to operate in arbitrary environments, especially near people, it...","categories": [],
@@ -25,7 +30,7 @@ var store = [{
         "url": "http://localhost:4000/research/03_quadrotor_rtd/"
       },{
         "title": "Predicting Sagittal-Plane Swing Hip Kinematics in Response to Trips",
-        "excerpt":"A Gaussian Process Regression model is validated using data from a 16-subject tripping experiment. Publication “Predicting Sagittal-Plane Swing Hip Kinematics in Response to Trips.” (Shannon M. Danforth, Xinyi Liu, Martin J. Ward, Patrick D. Holmes, Ram Vasudevan), in IEEE Robotics and Automation Letters, 2022. Abstract State-of-the-art wearable lower-limb robot controllers...","categories": [],
+        "excerpt":"A Gaussian Process Regression model is validated using data from a 16-subject tripping experiment. Publication “Predicting Sagittal-Plane Swing Hip Kinematics in Response to Trips.” (Shannon M. Danforth, Xinyi Liu, Martin J. Ward, Patrick D. Holmes, Ram Vasudevan), in IEEE Robotics and Automation Letters, 2022. Best RA-L Paper Award, BioRob 2022....","categories": [],
         "tags": [],
         "url": "http://localhost:4000/research/04_trip_prediction/"
       },{

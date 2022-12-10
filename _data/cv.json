@@ -5,7 +5,7 @@
     "picture": "",
     "email": "pdholmes19@gmail.com",
     "website": "https://patrickdanielholmes.com",
-    "summary": "Seeking a career in building robots that safely help people.",
+    "summary": "Seeking a career in developing robots that move safely.",
     "profiles": [
       {
         "network": "Github",
@@ -26,17 +26,17 @@
   },
   "work": [
     {
-      "company": "Ford Center for Autonomous Vehicles at the University of Michigan",
-      "position": "Senior Research Engineer",
+      "company": "University of Michigan Ford Center for Autonomous Vehicles / ROAHM Lab",
+      "position": "Senior Engineer in Research",
       "website": "https://fcav.engin.umich.edu",
       "startDate": "October 2021",
       "endDate": "",
-      "summary": "Safe trajectory planning and control of autonomous robots.",
-      "highlights": [
-        "Developed a robust trajectory-tracking controller for a robotic arm with bounded error despite model uncertainty.",
-        "Augmented the Recursive Newton-Euler Algorithm to operate over sets of desired trajectories plus tracking error.",
-        "Created novel receding-horizon reachability-based trajectory planner that satisfies collision-avoidance and torque limit constraints in the presence of static and dynamic obstacles, model uncertainty and tracking error."
-      ]
+      "summary": "Developing safe trajectory planning and control algorithms for autonomous robots.",
+      // "highlights": [
+      //   "Developed a robust trajectory-tracking controller for a robotic arm with bounded error despite model uncertainty.",
+      //   "Augmented the Recursive Newton-Euler Algorithm to operate over sets of desired trajectories plus tracking error.",
+      //   "Created novel receding-horizon reachability-based trajectory planner that satisfies collision-avoidance and torque limit constraints in the presence of static and dynamic obstacles, model uncertainty and tracking error."
+      // ]
     }
   ],
   "education": [
@@ -91,12 +91,30 @@
       ]
     }
   ],
+  "projects": [
+    {
+      "name": "Please see this webpage.",
+      "website": "https://patrickdanielholmes.com/research/",
+    }
+  ],
+  "publications": [
+    {
+      "name": "Please see this webpage.",
+      "website": "https://patrickdanielholmes.com/publications/",
+    }
+  ],
   "awards": [
     {
       "title": "RSS Pioneer",
       "date": "July 2020",
       "awarder": "Robotics: Science and Systems 2020 Pioneers Workshop",
       "summary": "One of 28 senior PhD students selected to present.",
+    },
+    {
+      "title": "Best RA-L Paper Award",
+      "date": "August 2022",
+      "awarder": "IEEE International Conference on Biomedical Robots and Biomechatronics",
+      "summary": "For the publication ''Predicting Sagittal-Plane Swing Hip Kinematics in Response to Trips.''",
     },
     {
       "title": "Best Student Paper Award",
@@ -110,12 +128,6 @@
       "awarder": "UC Berkeley Dept. of Mechanical Engineering",
       "summary": "One of six ME students awarded a full academic scholarship to attend UC Berkeley.",
     },
-  ],
-  "publications": [
-    {
-      "name": "Please see this webpage.",
-      "website": "https://patrickdanielholmes.com/publications/",
-    }
   ],
   "skills": [
     {
@@ -131,6 +143,7 @@
       "name": "Software",
       "keywords": [
         "Git",
+        "Ubuntu",
         "SolidWorks",
         "Simulink",
         "LabVIEW",

@@ -10,7 +10,7 @@ A Gaussian Process Regression model is validated using data from a 16-subject tr
 
 ## Publication
 
-["Predicting Sagittal-Plane Swing Hip Kinematics in Response to Trips."](https://ieeexplore.ieee.org/abstract/document/9799740) (Shannon M. Danforth, Xinyi Liu, Martin J. Ward, **Patrick D. Holmes**, Ram Vasudevan), in IEEE Robotics and Automation Letters, 2022.
+["Predicting Sagittal-Plane Swing Hip Kinematics in Response to Trips."](https://ieeexplore.ieee.org/abstract/document/9799740) (Shannon M. Danforth, Xinyi Liu, Martin J. Ward, **Patrick D. Holmes**, Ram Vasudevan), in IEEE Robotics and Automation Letters, 2022. **Best RA-L Paper Award, BioRob 2022.**
 
 ## Abstract
 

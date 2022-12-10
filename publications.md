@@ -8,7 +8,7 @@ permalink: /publications/
 - ["Towards Safe Autonomy in Assistive Robots."](https://dx.doi.org/10.7302/2867) (**Patrick D. Holmes**). Committee: Prof. Ram Vasudevan, Prof. Robert D. Gregg, Prof. Talia Y. Moore, Prof. Elliott Rouse. University of Michigan, Department of Mechanical Engineering, 2021.
 
 ## Journal Papers
-- ["Predicting Sagittal-Plane Swing Hip Kinematics in Response to Trips."](https://ieeexplore.ieee.org/abstract/document/9799740) (Shannon M. Danforth, Xinyi Liu, Martin J. Ward, **Patrick D. Holmes**, Ram Vasudevan), in IEEE Robotics and Automation Letters, 2022.
+- ["Predicting Sagittal-Plane Swing Hip Kinematics in Response to Trips."](https://ieeexplore.ieee.org/abstract/document/9799740) (Shannon M. Danforth, Xinyi Liu, Martin J. Ward, **Patrick D. Holmes**, Ram Vasudevan), in IEEE Robotics and Automation Letters, 2022. **Best RAL Paper Award at BioRob 2022 in Seoul, Korea.**
 - ["Characterizing the limits of human stability during motion: perturbative experiment validates a model-based approach for the Sit-to-Stand task."](http://doi.org/10.1098/rsos.191410) (**Patrick D. Holmes**, Shannon M. Danforth, Xiao-Yu Fu, Talia Y. Moore, Ram Vasudevan), in Royal Society Open Science, 2020. [Repo.](https://github.com/pdholmes/STS_SB) [Dataset.](https://deepblue.lib.umich.edu/data/concern/data_sets/mw22v557c)
 - ["Stability basin estimates fall risk from observed kinematics, demonstrated on the Sit-to-Stand task."](https://www.sciencedirect.com/science/article/pii/S0021929018301222) (Victor Shia, Talia Yuki Moore, **Patrick Holmes**, Ruzena Bajcsy, Ram Vasudevan), in Journal of Biomechanics, 2018.
 
