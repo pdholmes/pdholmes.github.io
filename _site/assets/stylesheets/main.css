@@ -261,8 +261,9 @@ main section { margin-left: auto; margin-right: auto; max-width: 100%; }
 .inner { max-width: 100%; }
 
 /* Layout specific adjustments ========================================================================== */
-.layout--post .entry-content, .layout--page .entry-content { max-width: 60%; margin-left: auto; margin-right: auto; }
+.layout--post .entry-content, .layout--page .entry-content { max-width: 100%; margin-left: auto; margin-right: auto; }
 @media (min-width: 64em) { .layout--post .entry-content, .layout--page .entry-content { width: 87.3417721519%; } }
+@media only screen and (min-width: 768px) { .layout--post .entry-content, .layout--page .entry-content { max-width: 60%; } }
 
 .layout--about .entry-wrap { display: -ms-flexbox; display: flex; -ms-flex-wrap: wrap; flex-wrap: wrap; }
 @media (min-width: 48em) { .layout--about .entry-wrap { -ms-flex-wrap: nowrap; flex-wrap: nowrap; } }
